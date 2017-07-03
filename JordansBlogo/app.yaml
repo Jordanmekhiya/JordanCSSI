@@ -1,0 +1,24 @@
+application: JordansBlogo
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /JordansBlogo\shark\.jpg
+  static_files: JordansBlogo\shark\.jpg
+  upload: JordansBlogo\.jpg
+
+  - url: /JordansBlogo\Blogo/.html
+  static_files: JordansBlogo\.html
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"

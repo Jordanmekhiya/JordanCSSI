@@ -12,17 +12,22 @@ h1{
     padding-top: 25px;
     padding-bottom: 50px;
   }
+  h2{
+     font-size: 80px; }
+     h3{
+        font-size: 80px; }
 body{
-background-color: orange;
+ background-image: url("shark.jpg");
+background-color: black;
 }
 p {
-  font-size: 25px;
+  font-size: 50px;
   color: yellow;
   border-style: solid;
-  border-color: red;
+  border-color: green;
   border-width:5px;
   outline-style: groove;
-  outline-color: black;
+  outline-color: blue;
   outline-width: 5px;
 }
 img{
@@ -30,5 +35,5 @@ img{
   border-width: 100px;
 }
 ul, ol{
-   color:red;
+   color:purple;
  }
